@@ -10,6 +10,6 @@ function createNames(firstName, lastName) {
         lastName: lastName 
     };
   }
-
+console.log(createNames)
   //2. Esporta la funzione dal file.
 module.exports = createNames;

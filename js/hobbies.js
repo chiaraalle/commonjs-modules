@@ -8,6 +8,6 @@ function createHobbies(hobbyOne, hobbyTwo, hobbyThree ) {
     return [hobbyOne, hobbyTwo, hobbyThree];
       
   }
-
+console.log(createHobbies)
 //2. Esporta la funzione dal file.
 module.exports = createHobbies;
