@@ -10,7 +10,7 @@ const createHobbies = require("./hobbies.js");
 function createObject() {
     //creo una variabile e la inizializzo con un oggetto che mi è stato restituito dalla funzione createNames a cui ho dato i due parametri.
     let nameAndSurname = createNames("chiara", "allegrino") 
-    //creo una variabile e la inizializzo con un oggetto che mi è stato restituito dalla funzione createHobbies a cui ho dato i tre parametri.
+    //creo una variabile e la inizializzo con un array che mi è stato restituito dalla funzione createHobbies a cui ho dato i tre parametri.
     let hobbies = createHobbies("giardinaggio", "disegnare", "pattinaggio")
     let person = {
         fullname: nameAndSurname,
